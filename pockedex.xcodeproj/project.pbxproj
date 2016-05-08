@@ -15,6 +15,7 @@
 		A5DA83051CDFB9290003B161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DA83031CDFB9290003B161 /* LaunchScreen.storyboard */; };
 		A5DA83101CDFB9290003B161 /* pockedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA830F1CDFB9290003B161 /* pockedexTests.m */; };
 		A5DA831B1CDFB9290003B161 /* pockedexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA831A1CDFB9290003B161 /* pockedexUITests.m */; };
+		A5DA83291CDFBF110003B161 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5DA83281CDFBF110003B161 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A5DA83161CDFB9290003B161 /* pockedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pockedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DA831A1CDFB9290003B161 /* pockedexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pockedexUITests.m; sourceTree = "<group>"; };
 		A5DA831C1CDFB9290003B161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DA83281CDFBF110003B161 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A5DA82F41CDFB9290003B161 /* pockedex */ = {
 			isa = PBXGroup;
 			children = (
+				A5DA83281CDFBF110003B161 /* pokemon.csv */,
 				A5DA82F81CDFB9290003B161 /* AppDelegate.h */,
 				A5DA82F91CDFB9290003B161 /* AppDelegate.m */,
 				A5DA82FB1CDFB9290003B161 /* ViewController.h */,
@@ -245,6 +248,7 @@
 			files = (
 				A5DA83051CDFB9290003B161 /* LaunchScreen.storyboard in Resources */,
 				A5DA83021CDFB9290003B161 /* Assets.xcassets in Resources */,
+				A5DA83291CDFBF110003B161 /* pokemon.csv in Resources */,
 				A5DA83001CDFB9290003B161 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
