@@ -16,6 +16,8 @@
 		A5DA83101CDFB9290003B161 /* pockedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA830F1CDFB9290003B161 /* pockedexTests.m */; };
 		A5DA831B1CDFB9290003B161 /* pockedexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA831A1CDFB9290003B161 /* pockedexUITests.m */; };
 		A5DA83291CDFBF110003B161 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A5DA83281CDFBF110003B161 /* pokemon.csv */; };
+		A5F606CE1CDFC21D00485797 /* Pockemon.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F606CD1CDFC21D00485797 /* Pockemon.m */; };
+		A5F606D21CDFCCA200485797 /* PokeCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F606D11CDFCCA200485797 /* PokeCellCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		A5DA831A1CDFB9290003B161 /* pockedexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pockedexUITests.m; sourceTree = "<group>"; };
 		A5DA831C1CDFB9290003B161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DA83281CDFBF110003B161 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		A5F606CC1CDFC21D00485797 /* Pockemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pockemon.h; sourceTree = "<group>"; };
+		A5F606CD1CDFC21D00485797 /* Pockemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pockemon.m; sourceTree = "<group>"; };
+		A5F606D01CDFCCA200485797 /* PokeCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokeCellCollectionViewCell.h; sourceTree = "<group>"; };
+		A5F606D11CDFCCA200485797 /* PokeCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokeCellCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 		A5DA82F41CDFB9290003B161 /* pockedex */ = {
 			isa = PBXGroup;
 			children = (
+				A5F606CF1CDFCC7700485797 /* View */,
+				A5F606CB1CDFC1CE00485797 /* Model */,
 				A5DA83281CDFBF110003B161 /* pokemon.csv */,
 				A5DA82F81CDFB9290003B161 /* AppDelegate.h */,
 				A5DA82F91CDFB9290003B161 /* AppDelegate.m */,
@@ -141,6 +149,24 @@
 				A5DA831C1CDFB9290003B161 /* Info.plist */,
 			);
 			path = pockedexUITests;
+			sourceTree = "<group>";
+		};
+		A5F606CB1CDFC1CE00485797 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5F606CC1CDFC21D00485797 /* Pockemon.h */,
+				A5F606CD1CDFC21D00485797 /* Pockemon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5F606CF1CDFCC7700485797 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5F606D01CDFCCA200485797 /* PokeCellCollectionViewCell.h */,
+				A5F606D11CDFCCA200485797 /* PokeCellCollectionViewCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F606D21CDFCCA200485797 /* PokeCellCollectionViewCell.m in Sources */,
 				A5DA82FD1CDFB9290003B161 /* ViewController.m in Sources */,
+				A5F606CE1CDFC21D00485797 /* Pockemon.m in Sources */,
 				A5DA82FA1CDFB9290003B161 /* AppDelegate.m in Sources */,
 				A5DA82F71CDFB9290003B161 /* main.m in Sources */,
 			);
@@ -502,6 +530,7 @@
 				A5DA83211CDFB9290003B161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5DA83221CDFB9290003B161 /* Build configuration list for PBXNativeTarget "pockedexTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +539,7 @@
 				A5DA83241CDFB9290003B161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5DA83251CDFB9290003B161 /* Build configuration list for PBXNativeTarget "pockedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +548,7 @@
 				A5DA83271CDFB9290003B161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
