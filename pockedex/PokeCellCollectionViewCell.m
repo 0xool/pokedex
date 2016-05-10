@@ -11,13 +11,25 @@
 
 @implementation PokeCellCollectionViewCell
 
+
+
+
 -(void)configureCell : (Pockemon*)pockemon{
     
     self.pockemon = pockemon;
     self.nameLabel.text = [pockemon _name];
     self.thumbImage = [UIImage imageNamed:[NSString  stringWithFormat:@"%i" , self.pockemon._pockedexID]];
     
-    
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        printf("FUCK YOU SHIT HEAD ");
+        self.layer.cornerRadius = 100.0;
+    }
+    return self;
 }
 
 
