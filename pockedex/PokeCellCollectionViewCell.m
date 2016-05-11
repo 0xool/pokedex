@@ -11,26 +11,26 @@
 
 @implementation PokeCellCollectionViewCell
 
-
-
+- (id)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        self.layer.cornerRadius = 5.0;
+    }
+    return self;
+}
 
 -(void)configureCell : (Pockemon*)pockemon{
     
     self.pockemon = pockemon;
     self.nameLabel.text = [pockemon _name];
-    self.thumbImage = [UIImage imageNamed:[NSString  stringWithFormat:@"%i" , self.pockemon._pockedexID]];
+    NSString *temp = [NSString  stringWithFormat:@"%i" , pockemon._pockedexID];
+   // NSLog(temp);
+    [self.thumbImage setImage: [UIImage imageNamed:[NSString  stringWithFormat:@"%i" , pockemon._pockedexID]]];
     
 }
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        printf("FUCK YOU SHIT HEAD ");
-        self.layer.cornerRadius = 100.0;
-    }
-    return self;
-}
+
 
 
 @end

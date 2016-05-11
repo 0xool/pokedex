@@ -11,9 +11,10 @@
 
 @interface PokeCellCollectionViewCell : UICollectionViewCell
 
-@property IBOutlet UIImage* thumbImage;
+@property IBOutlet UIImageView* thumbImage;
 @property IBOutlet UILabel* nameLabel;
 @property (weak , nonatomic) Pockemon* pockemon;
 
+-(void)configureCell : (Pockemon*)pockemon;
 
 @end

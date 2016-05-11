@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Pockemon.h"
+#import "csvParser.h"
 
-@interface ViewController : UIViewController <UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout>
+@interface  ViewController : UIViewController <UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout , NSObject>
 
 
 @property (weak , nonatomic) IBOutlet UICollectionView* collectionView;
+@property (weak , nonatomic)   Pockemon* pokemon;
+
+
+-(void)parsePokemonCSV;
+
 
 
 

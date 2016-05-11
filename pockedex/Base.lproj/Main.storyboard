@@ -79,6 +79,7 @@
                                         <connections>
                                             <outlet property="backgroundView" destination="5hi-Hs-U15" id="dsL-Rf-5CD"/>
                                             <outlet property="nameLabel" destination="EPS-b9-BHf" id="djU-tj-tO4"/>
+                                            <outlet property="thumbImage" destination="5hi-Hs-U15" id="WVx-YE-ni3"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

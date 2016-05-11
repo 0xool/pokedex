@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PokeCellCollectionViewCell.h"
+#import "Pockemon.h"
 
-@interface ViewController ()
+@interface  ViewController ()
 
 @end
 
@@ -19,10 +21,10 @@
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     
-    
+    [self parsePokemonCSV];
     
 }
-
+//================================================================================
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -30,13 +32,30 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    UICollectionViewCell* cell ;
+    PokeCellCollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PokeCellCollectionViewCell" forIndexPath:indexPath];
+    Pockemon* pokemon = [[Pockemon alloc]initWithName:@"Test" withPokedexId:(int)(indexPath.row + 1)];
+
+    [cell configureCell:pokemon];
     
-    cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PokeCellCollectionViewCell" forIndexPath:indexPath];
+    return cell;
+}
+
+-(void)parsePokemonCSV{
     
+    NSBundle* path = [[NSBundle mainBundle] pathForResource:@"pokemon" ofType:@"csv"];
     
-        return cell;
-   
+    //NSArray *arrayOfArrays = [CSVParser parseCSVIntoArrayOfArraysFromFile:path
+      //                                       withSeparatedCharacterString:@","
+        //quoteCharacterString:nil];
+;
+    
+    NSString *file = [[NSBundle mainBundle] pathForResource:@"USPresident Wikipedia" ofType:@"csv"];
+    NSArray* array = [CSVParser parseCSVIntoArrayOfDictionariesFromFile:path
+                          withSeparatedCharacterString:@","
+                                  quoteCharacterString:nil
+                                             ];
+    
+    NSLog(@"%@",array);
     
 }
 
@@ -51,7 +70,7 @@
     
     
     
-    return 30;
+    return 718;
 
 }
 

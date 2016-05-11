@@ -11,7 +11,7 @@
 @implementation Pockemon
 
 
-- (instancetype)initWithName : (NSString*)name withPokedexId : (int)pokedexId
+- (id)initWithName : (NSString*)name withPokedexId : (int)pokedexId
 {
     self = [super init];
     if (self) {

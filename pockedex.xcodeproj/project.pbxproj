@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5AA1E0A1CE3023D0043FB18 /* csvParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA1E091CE3023D0043FB18 /* csvParser.m */; };
 		A5DA82F71CDFB9290003B161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA82F61CDFB9290003B161 /* main.m */; };
 		A5DA82FA1CDFB9290003B161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA82F91CDFB9290003B161 /* AppDelegate.m */; };
 		A5DA82FD1CDFB9290003B161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA82FC1CDFB9290003B161 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5AA1E081CE3023D0043FB18 /* csvParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csvParser.h; sourceTree = "<group>"; };
+		A5AA1E091CE3023D0043FB18 /* csvParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csvParser.m; sourceTree = "<group>"; };
 		A5DA82F21CDFB9290003B161 /* pockedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pockedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DA82F61CDFB9290003B161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5DA82F81CDFB9290003B161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5AA1E0B1CE310140043FB18 /* Utile */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA1E081CE3023D0043FB18 /* csvParser.h */,
+				A5AA1E091CE3023D0043FB18 /* csvParser.m */,
+			);
+			name = Utile;
+			sourceTree = "<group>";
+		};
+		A5AA1E0C1CE3102B0043FB18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5DA83281CDFBF110003B161 /* pokemon.csv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		A5DA82E91CDFB9290003B161 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +129,10 @@
 		A5DA82F41CDFB9290003B161 /* pockedex */ = {
 			isa = PBXGroup;
 			children = (
+				A5AA1E0C1CE3102B0043FB18 /* Resources */,
+				A5AA1E0B1CE310140043FB18 /* Utile */,
 				A5F606CF1CDFCC7700485797 /* View */,
 				A5F606CB1CDFC1CE00485797 /* Model */,
-				A5DA83281CDFBF110003B161 /* pokemon.csv */,
 				A5DA82F81CDFB9290003B161 /* AppDelegate.h */,
 				A5DA82F91CDFB9290003B161 /* AppDelegate.m */,
 				A5DA82FB1CDFB9290003B161 /* ViewController.h */,
@@ -303,6 +324,7 @@
 				A5F606D21CDFCCA200485797 /* PokeCellCollectionViewCell.m in Sources */,
 				A5DA82FD1CDFB9290003B161 /* ViewController.m in Sources */,
 				A5F606CE1CDFC21D00485797 /* Pockemon.m in Sources */,
+				A5AA1E0A1CE3023D0043FB18 /* csvParser.m in Sources */,
 				A5DA82FA1CDFB9290003B161 /* AppDelegate.m in Sources */,
 				A5DA82F71CDFB9290003B161 /* main.m in Sources */,
 			);

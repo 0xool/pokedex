@@ -13,5 +13,6 @@
 @property (weak , nonatomic) NSString* _name;
 @property int _pockedexID;
 
+- (id)initWithName : (NSString*)name withPokedexId : (int)pokedexId;
 
 @end
