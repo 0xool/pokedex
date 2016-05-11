@@ -12,13 +12,14 @@
 #import <AVFoundation/AVFoundation.h>
 
 
-@interface  ViewController : UIViewController <UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout , NSObject>
+@interface  ViewController : UIViewController <UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout , UISearchBarDelegate>
 
 
 @property (weak , nonatomic) IBOutlet UICollectionView* collectionView;
 @property (weak , nonatomic)   Pockemon* pokemon;
 @property  NSMutableArray* pokemons;
 @property (weak , nonatomic) AVAudioPlayer* MusicPlayer;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 
 - (IBAction)musicButtonPressed:(id)sender;

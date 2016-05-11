@@ -61,11 +61,6 @@
                                     <constraint firstItem="eeD-Jx-UEA" firstAttribute="centerY" secondItem="He8-PY-loS" secondAttribute="centerY" id="IKQ-rh-dWi"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" ambiguous="YES" misplaced="YES" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="n6J-3G-RbM">
-                                <rect key="frame" x="0.0" y="62" width="600" height="44"/>
-                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bec-yF-Fek">
                                 <rect key="frame" x="51" y="118" width="560" height="453"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -117,6 +112,11 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <searchBar contentMode="redraw" ambiguous="YES" misplaced="YES" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="n6J-3G-RbM">
+                                <rect key="frame" x="0.0" y="62" width="600" height="44"/>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -144,6 +144,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="bec-yF-Fek" id="cQN-pn-gXx"/>
+                        <outlet property="searchBar" destination="n6J-3G-RbM" id="dg5-9D-pEg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
