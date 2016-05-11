@@ -24,7 +24,7 @@
     [self parsePokemonCSV];
     
 }
-//================================================================================
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -55,7 +55,7 @@
                                   quoteCharacterString:nil
                                              ];
     
-    NSLog(@"%@",array);
+
     
 }
 
