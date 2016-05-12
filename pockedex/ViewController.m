@@ -32,6 +32,7 @@
     self.collectionView.dataSource = self;
     self.searchBar.delegate = self;
     [self parsePokemonCSV];
+    self.searchBar.returnKeyType = UIReturnKeyDone   ;
     [self initAudio];
     isInSearchMode = false;
 }
@@ -120,9 +121,22 @@
     
 }
 
+
+
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
+    Pockemon* pokemon;
     
+    if (isInSearchMode) {
+        
+        pokemon = searchArrayForPockemon[indexPath.row];
+        
+    }else{
+        
+        pokemon = self.pokemons[indexPath.row];
+    }
+    
+        [self performSegueWithIdentifier:@"PokemonDetailVC" sender:pokemon];
     
 }
 
@@ -137,6 +151,8 @@
     }else{
         return self.pokemons.count;
     }
+    
+
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -152,6 +168,14 @@
     return CGSizeMake(105, 105);
 }
 
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
+    
+    
+    [self.view endEditing:true];
+    
+    
+}
+
 
 -(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText{
     
@@ -161,7 +185,8 @@
     if(self.searchBar.text == NULL || [self.searchBar.text  isEqual: @""] ){
         
         isInSearchMode = false;
-
+        [self.view endEditing:true];
+                        NSLog(@"I WAS HERE");
         
     }else{
         
@@ -176,8 +201,31 @@
 
     }
     
-                NSLog(@"%i" , searchArrayForPockemon.count)a;
+
                 [self.collectionView reloadData];
+    
+    
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if([segue.identifier  isEqual: @"PokemonDetailVC"]){
+        PokemonDetailVC* detailVC;
+        detailVC = [segue destinationViewController];
+            Pockemon* pokemon;
+            
+            pokemon = sender;
+            detailVC.pokemon = pokemon;
+                
+            
+            
+        
+        
+    }else{
+        
+        
+        
+    }
     
     
 }

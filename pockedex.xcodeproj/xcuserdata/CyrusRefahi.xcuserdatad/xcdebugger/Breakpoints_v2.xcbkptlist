@@ -10,27 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
+            timestampString = "484727892.2995"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
-            landmarkName = "-collectionView:didSelectItemAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "-collectionView:didSelectItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
+            timestampString = "484687209.658994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "-parsePokemonCSV"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
+            timestampString = "484687209.658994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "-parsePokemonCSV"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
+            timestampString = "484687209.658994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "-parsePokemonCSV"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484674927.604022"
+            timestampString = "484687209.658994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "@implementation ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -202,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
+            timestampString = "484687209.658994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "-parsePokemonCSV"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,12 +202,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "pockedex/ViewController.m"
-            timestampString = "484675251.111781"
+            timestampString = "484687209.658994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "-parsePokemonCSV"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pockedex/PokemonDetailVC.m"
+            timestampString = "484728800.158736"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

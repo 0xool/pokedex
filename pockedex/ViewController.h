@@ -10,6 +10,7 @@
 #import "Pockemon.h"
 #import "csvParser.h"
 #import <AVFoundation/AVFoundation.h>
+#import "PokemonDetailVC.h"
 
 
 @interface  ViewController : UIViewController <UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout , UISearchBarDelegate>
