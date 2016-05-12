@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.LabelPokemon.text = self.pokemon._name;
-    printf("%c" , self.pokemon._name);
+  
+
 }
 
 - (void)didReceiveMemoryWarning {
