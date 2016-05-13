@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E0EFD308A39DA6783F9004C5689973 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DF8E00F4B7247200E918093A33BF24 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD192052EABAC281CD5C0600ED8CB77 /* JXHTTPOperationQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F35E7C5A98226A77DD3CB6C883C33403 /* JXHTTPOperationQueueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117F41761DAD72C7D56D883B7E22C947 /* JXURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E55480B40AEE474923FB258C2E36661 /* JXURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		15B8E11E650E4439BF3BE2D48EE3F718 /* JXOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D71289D4585B7E77571BF6E22C13507 /* JXOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19A2AEA6F18B93212006AFB2A7A25AF8 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 748481E95D057EF99489641419D5F5A6 /* JSONModel.m */; };
+		19CD65D2C191FAC5C6A00BB9AE941EDB /* JXHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A9BDB29BC3CE1F8ED501B4FDC15FE8 /* JXHTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABA76EE6A4D8C47442455983E2E767E /* JXURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4C9057213A304A102E0BC891B7CC7F /* JXURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E75ECA691A7A28962E96F8569038653 /* JXOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DD1B64B1AE0A64CEF508CA844C47F2 /* JXOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		216E5A12ACFD64B84DC1A2E253336D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		24EDE9B062725E5487CE9234E6F931C2 /* JXNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1906C345504AF3820C7F92C4497B30E4 /* JXNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2747F3C5F2D40FA2A0C03AFDD66DE665 /* JXHTTPJSONBody.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDDD291AD35DFFBEE68892275609759 /* JXHTTPJSONBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADFEFD86E68998CB00A4A2690EFBA37 /* JXHTTPMultipartBody.m in Sources */ = {isa = PBXBuildFile; fileRef = F59484B94258A3D2C399FDD42648D661 /* JXHTTPMultipartBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F8D135BE069298B3FE7C13988B2CF08 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030E2B1AF840B24CA84A498B0B17D15 /* JSONModelClassProperty.m */; };
+		392AD7668AFF02503497AB625C81FD31 /* JXHTTPFormEncodedBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4D7CE831A7A83BC055C2DA57D9A525 /* JXHTTPFormEncodedBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39353D244F66C654150D7A018AC7B6F5 /* JXHTTPOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9C426D44688A08CD862FDC6F6C6A6 /* JXHTTPOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		393E2E501D0B38AE7DD535362026926D /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D905FE01C5A3C12A1003084B68B3224 /* JSONAPI.m */; };
+		48DACCF50A5732DBF8912C3F492AEA2E /* JXHTTPDataBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C98AC2BEF79B08077BB398D2BE3F2108 /* JXHTTPDataBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C2170682F0542DCF61CF9DFE16DAC491 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D38F56288B454638B98D7FC712864F2 /* JXHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEE7EBDA4FD19228B8836D3156B8E04 /* JXHTTP-dummy.m */; };
+		4F8B282C7B454EDD6E31DDD12B05FC51 /* JXHTTPFormEncodedBody.m in Sources */ = {isa = PBXBuildFile; fileRef = D812CE6C57FF4073CA2C37965CB027C7 /* JXHTTPFormEncodedBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F954C709441CBCCDB2D6A67A2BF234 /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A495496923A83FDE7E169BA6CC401A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		566F290B185C42AE9D033BECD6CC2582 /* JXHTTPOperation+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = E090E0933CDEE68F9D38CF8988FA5F8E /* JXHTTPOperation+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59DFAF46993F71E88A7336D2A8A3731D /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF3799C0F9C80CBFB88B71A3A2B25E /* JSONHTTPClient.m */; };
+		61F3DD62261DB600855C5B84634AA60B /* JXURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E9FE1B11C46A5CAC75BEA8D701321B /* JXURLEncoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63428C80B56B7AB4E5FD62AD812C2F8E /* JXHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C498B22740317824C7C202DDFAA128B /* JXHTTPOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A95B60C81AEE4C3A565322E05BEC8E /* JXHTTPOperation+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A387CFE60DF26838607BA2767B58B6 /* JXHTTPOperation+Convenience.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		73958E45B653CC336E7AC0A064237B37 /* JXBackgroundTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBDA82EFAB58D30A8ED8356E870E405 /* JXBackgroundTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740B64AC8CA44CDC54A3A2CCB396A0EB /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = E02FBB29FB91383B1972642C69F96735 /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7712C6A5E3E14813E241F913F04BD3FC /* JXHTTPDataBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 543DCB57A68944CED447921946AFBE73 /* JXHTTPDataBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC57A971BC81BEFCD4D52ACF58BB517 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0C5EB66E9F9839FBB8B5539910E94 /* JSONValueTransformer.m */; };
+		8572EA2DB7894989FDA4C085E70D96C8 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEC52A0454D414405DFCC446E87D941 /* NSArray+JSONModel.m */; };
+		85AC21BC7BD345D84F489F7A52D39E44 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E4226484FE36710079A7FA93E10847 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880C99DF50E8C41EBE032934BE7F9905 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 552E1CAADA84B2AC8B994D46BF237A66 /* JSONModelArray.m */; };
+		891A5DA07C60C95DAD969B542CCDE442 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D1718A4E738F37F5264FC1A1FA8D56 /* JSONModel+networking.m */; };
+		892C7586B66019936A323E17331FB30F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8BAA841E13438FD0A6BB7A277CDCD036 /* JXHTTPOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E68B5545A0B8340F50C4A5270BF7E82B /* JXHTTPOperationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD001B0217CFDD1F5D8A3A6C3A8A5DC /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 334CEDF2A45E3169AEACB3FEA223EB2C /* JSONKeyMapper.m */; };
+		8F11ABA0C553B18981097015226E5748 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F34283CDF69B0EBDFA18C3F53121E90D /* NSArray+JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D2D0B3B912627C074A061436AA0F2A /* JXHTTPOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6389427526CBFB29454DA7D3624A5989 /* JXHTTPOperationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D56C8C1BB6177C16DFEBCD4FE0EFAAC /* Pods-pockedex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C622089DDF299BD56AB7C9AB641DB93B /* Pods-pockedex-dummy.m */; };
+		A049B322C75DF1C944935D7D0D7F1E7E /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A3E2C6340D2F7F5BA88B1FD5AE6FC2 /* JSONModelError.m */; };
+		ADC5E5CDDD234239FF2EAEB57D5A1371 /* JXURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF7ED951F45FC95AC9534AEC5468CE4 /* JXURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF504D8A0F905CC4DC8DC5000690FD85 /* JXHTTPFileBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AE83D8D7CE6C0D62022F5437EBEB75 /* JXHTTPFileBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B04FAF363C4F18CA318C4F5DDD606DA4 /* JXHTTPFileBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 423749FE738671822B3757B1FD411F5F /* JXHTTPFileBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5AE7E8E802A2EB3F86A2D4FBF3692B /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C591CE6B9FA1950409E543A70B3ECABE /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1572E0E4F1959F64A05AA11F14A3D004 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D7BC116604B85293D4BBA61031469E /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D928CDFB2D7D3E2AD9DE3D2974391870 /* JXHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C81B5576B6D49C8F7DEF308AEA1BA76B /* JXHTTPOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E04739BAC8F58D877DFE1946932B53D7 /* JXHTTPJSONBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC58E1ABD8D4767361B1DDF2A406277 /* JXHTTPJSONBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE27B8D800BD5CBC5A23FACF87210920 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21351873F9F4CAB2EC6E8044189DFE6A /* JSONModel-dummy.m */; };
+		EF1E6AC4E6A544E4AC437179D27B7453 /* JXHTTPRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C6E3928E953DA3687B0D2CBA760E9B /* JXHTTPRequestBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C5F9D5720117984936655ABDF2A42C /* JXHTTPMultipartBody.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C508A1957E98ED4BB14A6F7C98B13 /* JXHTTPMultipartBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB8B025E2486898F734CA7B74B0A7E1 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B5D2658B77049DDEC0AAA88E6FCEA7 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD66ECB8B8B5DB9F95D8DC1A2EC3C4C /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C95F3B658EF0959DE17FA6E130A6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0144952FC8B7B32E77E313BE1F32BA9;
+			remoteInfo = JXHTTP;
+		};
+		AD1FD15E1DE43BC3D67EE15CDF313AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FA060F1A0492FB25232F489AC4E573;
+			remoteInfo = JSONModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0030E2B1AF840B24CA84A498B0B17D15 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		007C903E20E077A5D0E3FDD809018047 /* Pods-pockedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pockedex.release.xcconfig"; sourceTree = "<group>"; };
+		00E4226484FE36710079A7FA93E10847 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		0E55480B40AEE474923FB258C2E36661 /* JXURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLConnectionOperation.m; path = JXHTTP/JXURLConnectionOperation.m; sourceTree = "<group>"; };
+		1572E0E4F1959F64A05AA11F14A3D004 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		1906C345504AF3820C7F92C4497B30E4 /* JXNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXNetworkActivityIndicatorManager.h; path = JXHTTP/JXNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		1C498B22740317824C7C202DDFAA128B /* JXHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperation.h; path = JXHTTP/JXHTTPOperation.h; sourceTree = "<group>"; };
+		20DF8E00F4B7247200E918093A33BF24 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		21351873F9F4CAB2EC6E8044189DFE6A /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		24A387CFE60DF26838607BA2767B58B6 /* JXHTTPOperation+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JXHTTPOperation+Convenience.m"; path = "JXHTTP/JXHTTPOperation+Convenience.m"; sourceTree = "<group>"; };
+		2CBDA82EFAB58D30A8ED8356E870E405 /* JXBackgroundTaskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBackgroundTaskManager.h; path = JXHTTP/JXBackgroundTaskManager.h; sourceTree = "<group>"; };
+		2D71289D4585B7E77571BF6E22C13507 /* JXOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXOperation.h; path = JXHTTP/JXOperation.h; sourceTree = "<group>"; };
+		334CEDF2A45E3169AEACB3FEA223EB2C /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		3E4D7CE831A7A83BC055C2DA57D9A525 /* JXHTTPFormEncodedBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFormEncodedBody.h; path = JXHTTP/JXHTTPFormEncodedBody.h; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EC58E1ABD8D4767361B1DDF2A406277 /* JXHTTPJSONBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPJSONBody.m; path = JXHTTP/JXHTTPJSONBody.m; sourceTree = "<group>"; };
+		423749FE738671822B3757B1FD411F5F /* JXHTTPFileBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFileBody.m; path = JXHTTP/JXHTTPFileBody.m; sourceTree = "<group>"; };
+		49AE83D8D7CE6C0D62022F5437EBEB75 /* JXHTTPFileBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPFileBody.h; path = JXHTTP/JXHTTPFileBody.h; sourceTree = "<group>"; };
+		52A3E2C6340D2F7F5BA88B1FD5AE6FC2 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		543DCB57A68944CED447921946AFBE73 /* JXHTTPDataBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPDataBody.h; path = JXHTTP/JXHTTPDataBody.h; sourceTree = "<group>"; };
+		552E1CAADA84B2AC8B994D46BF237A66 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
+		5D905FE01C5A3C12A1003084B68B3224 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		60A9BDB29BC3CE1F8ED501B4FDC15FE8 /* JXHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTP.h; path = JXHTTP/JXHTTP.h; sourceTree = "<group>"; };
+		6389427526CBFB29454DA7D3624A5989 /* JXHTTPOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperationQueue.m; path = JXHTTP/JXHTTPOperationQueue.m; sourceTree = "<group>"; };
+		64A04903C993199169E4E63CA3C4DF23 /* JXHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXHTTP.xcconfig; sourceTree = "<group>"; };
+		68E18169EA6B9017591FDDE7B0594C50 /* Pods-pockedex-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pockedex-resources.sh"; sourceTree = "<group>"; };
+		6FEF3799C0F9C80CBFB88B71A3A2B25E /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		748481E95D057EF99489641419D5F5A6 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		77BC3AA11456CC2DA566CD094DD248CA /* JXHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXHTTP-prefix.pch"; sourceTree = "<group>"; };
+		78B7830303BA389B762B86BE9591F70D /* Pods-pockedex-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pockedex-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78E9FE1B11C46A5CAC75BEA8D701321B /* JXURLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXURLEncoding.m; path = JXHTTP/JXURLEncoding.m; sourceTree = "<group>"; };
+		7FB8B025E2486898F734CA7B74B0A7E1 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		83A1FA030B8F50C214ED5FC001969B27 /* Pods-pockedex-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pockedex-acknowledgements.plist"; sourceTree = "<group>"; };
+		86F954C709441CBCCDB2D6A67A2BF234 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		8BEE7EBDA4FD19228B8836D3156B8E04 /* JXHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXHTTP-dummy.m"; sourceTree = "<group>"; };
+		94F1AFAAFDD789C6FC44AA9FD60BDAA6 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		A0D7BC116604B85293D4BBA61031469E /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		A6BAB112866FB7CE739139AB37698595 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		AF4C9057213A304A102E0BC891B7CC7F /* JXURLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLEncoding.h; path = JXHTTP/JXURLEncoding.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDD66ECB8B8B5DB9F95D8DC1A2EC3C4C /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		C1DABF1F827CDA43190613B5AED20AA6 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2170682F0542DCF61CF9DFE16DAC491 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		C26D410645D9F00CA2E10003EBF803BB /* libJXHTTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJXHTTP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41AA0B238E59C30FD4A33769BAFCE29 /* Pods-pockedex-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pockedex-frameworks.sh"; sourceTree = "<group>"; };
+		C622089DDF299BD56AB7C9AB641DB93B /* Pods-pockedex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pockedex-dummy.m"; sourceTree = "<group>"; };
+		C65DEB2218FA2070477990F38D2ED465 /* Pods-pockedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pockedex.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B9A905038BFE56BBBFE318859AEFE1 /* libPods-pockedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pockedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D1718A4E738F37F5264FC1A1FA8D56 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		C81B5576B6D49C8F7DEF308AEA1BA76B /* JXHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPOperation.m; path = JXHTTP/JXHTTPOperation.m; sourceTree = "<group>"; };
+		C98AC2BEF79B08077BB398D2BE3F2108 /* JXHTTPDataBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPDataBody.m; path = JXHTTP/JXHTTPDataBody.m; sourceTree = "<group>"; };
+		CDD9C426D44688A08CD862FDC6F6C6A6 /* JXHTTPOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueue.h; path = JXHTTP/JXHTTPOperationQueue.h; sourceTree = "<group>"; };
+		D812CE6C57FF4073CA2C37965CB027C7 /* JXHTTPFormEncodedBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPFormEncodedBody.m; path = JXHTTP/JXHTTPFormEncodedBody.m; sourceTree = "<group>"; };
+		D9F0C5EB66E9F9839FBB8B5539910E94 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		DCDDD291AD35DFFBEE68892275609759 /* JXHTTPJSONBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPJSONBody.h; path = JXHTTP/JXHTTPJSONBody.h; sourceTree = "<group>"; };
+		E01C508A1957E98ED4BB14A6F7C98B13 /* JXHTTPMultipartBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPMultipartBody.h; path = JXHTTP/JXHTTPMultipartBody.h; sourceTree = "<group>"; };
+		E02FBB29FB91383B1972642C69F96735 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		E090E0933CDEE68F9D38CF8988FA5F8E /* JXHTTPOperation+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JXHTTPOperation+Convenience.h"; path = "JXHTTP/JXHTTPOperation+Convenience.h"; sourceTree = "<group>"; };
+		E4C6E3928E953DA3687B0D2CBA760E9B /* JXHTTPRequestBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPRequestBody.h; path = JXHTTP/JXHTTPRequestBody.h; sourceTree = "<group>"; };
+		E68B5545A0B8340F50C4A5270BF7E82B /* JXHTTPOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationDelegate.h; path = JXHTTP/JXHTTPOperationDelegate.h; sourceTree = "<group>"; };
+		EEEC52A0454D414405DFCC446E87D941 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		F34283CDF69B0EBDFA18C3F53121E90D /* NSArray+JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONModel.h"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		F35E7C5A98226A77DD3CB6C883C33403 /* JXHTTPOperationQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXHTTPOperationQueueDelegate.h; path = JXHTTP/JXHTTPOperationQueueDelegate.h; sourceTree = "<group>"; };
+		F59484B94258A3D2C399FDD42648D661 /* JXHTTPMultipartBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXHTTPMultipartBody.m; path = JXHTTP/JXHTTPMultipartBody.m; sourceTree = "<group>"; };
+		F7DD1B64B1AE0A64CEF508CA844C47F2 /* JXOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXOperation.m; path = JXHTTP/JXOperation.m; sourceTree = "<group>"; };
+		FE5AE7E8E802A2EB3F86A2D4FBF3692B /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		FFF7ED951F45FC95AC9534AEC5468CE4 /* JXURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXURLConnectionOperation.h; path = JXHTTP/JXURLConnectionOperation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB932C7244160CC464D5F7E2A9713D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216E5A12ACFD64B84DC1A2E253336D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24A8D054DA89F209E9C51CD74D72BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A495496923A83FDE7E169BA6CC401A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37731CE2A0619C69CFBCE1885AD9532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892C7586B66019936A323E17331FB30F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B74D79D587DE083DFC6A7B9B60B19AB /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				00E4226484FE36710079A7FA93E10847 /* JSONAPI.h */,
+				5D905FE01C5A3C12A1003084B68B3224 /* JSONAPI.m */,
+				A0D7BC116604B85293D4BBA61031469E /* JSONHTTPClient.h */,
+				6FEF3799C0F9C80CBFB88B71A3A2B25E /* JSONHTTPClient.m */,
+				C2170682F0542DCF61CF9DFE16DAC491 /* JSONKeyMapper.h */,
+				334CEDF2A45E3169AEACB3FEA223EB2C /* JSONKeyMapper.m */,
+				FE5AE7E8E802A2EB3F86A2D4FBF3692B /* JSONModel.h */,
+				748481E95D057EF99489641419D5F5A6 /* JSONModel.m */,
+				BDD66ECB8B8B5DB9F95D8DC1A2EC3C4C /* JSONModel+networking.h */,
+				C6D1718A4E738F37F5264FC1A1FA8D56 /* JSONModel+networking.m */,
+				86F954C709441CBCCDB2D6A67A2BF234 /* JSONModelArray.h */,
+				552E1CAADA84B2AC8B994D46BF237A66 /* JSONModelArray.m */,
+				E02FBB29FB91383B1972642C69F96735 /* JSONModelClassProperty.h */,
+				0030E2B1AF840B24CA84A498B0B17D15 /* JSONModelClassProperty.m */,
+				7FB8B025E2486898F734CA7B74B0A7E1 /* JSONModelError.h */,
+				52A3E2C6340D2F7F5BA88B1FD5AE6FC2 /* JSONModelError.m */,
+				1572E0E4F1959F64A05AA11F14A3D004 /* JSONModelLib.h */,
+				20DF8E00F4B7247200E918093A33BF24 /* JSONValueTransformer.h */,
+				D9F0C5EB66E9F9839FBB8B5539910E94 /* JSONValueTransformer.m */,
+				F34283CDF69B0EBDFA18C3F53121E90D /* NSArray+JSONModel.h */,
+				EEEC52A0454D414405DFCC446E87D941 /* NSArray+JSONModel.m */,
+				724606026F031A6390CB49B67E6C4521 /* Support Files */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		2685F0F612EAAD8A70F686E82085BF6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B74D79D587DE083DFC6A7B9B60B19AB /* JSONModel */,
+				DB5718F30E4347AEA649476A6153B54B /* JXHTTP */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C4943E4AEB84E5854E23B6FDC50DC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1DABF1F827CDA43190613B5AED20AA6 /* libJSONModel.a */,
+				C26D410645D9F00CA2E10003EBF803BB /* libJXHTTP.a */,
+				C6B9A905038BFE56BBBFE318859AEFE1 /* libPods-pockedex.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F838C32082257D987D1223E3BD0E86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8BC4476C9836CD3727F00881A27F19D /* Pods-pockedex */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		724606026F031A6390CB49B67E6C4521 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F1AFAAFDD789C6FC44AA9FD60BDAA6 /* JSONModel.xcconfig */,
+				21351873F9F4CAB2EC6E8044189DFE6A /* JSONModel-dummy.m */,
+				A6BAB112866FB7CE739139AB37698595 /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2685F0F612EAAD8A70F686E82085BF6D /* Pods */,
+				5C4943E4AEB84E5854E23B6FDC50DC07 /* Products */,
+				64F838C32082257D987D1223E3BD0E86 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FB9A117024F39AB3F4F545C3CAD1CD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A04903C993199169E4E63CA3C4DF23 /* JXHTTP.xcconfig */,
+				8BEE7EBDA4FD19228B8836D3156B8E04 /* JXHTTP-dummy.m */,
+				77BC3AA11456CC2DA566CD094DD248CA /* JXHTTP-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JXHTTP";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C8BC4476C9836CD3727F00881A27F19D /* Pods-pockedex */ = {
+			isa = PBXGroup;
+			children = (
+				78B7830303BA389B762B86BE9591F70D /* Pods-pockedex-acknowledgements.markdown */,
+				83A1FA030B8F50C214ED5FC001969B27 /* Pods-pockedex-acknowledgements.plist */,
+				C622089DDF299BD56AB7C9AB641DB93B /* Pods-pockedex-dummy.m */,
+				C41AA0B238E59C30FD4A33769BAFCE29 /* Pods-pockedex-frameworks.sh */,
+				68E18169EA6B9017591FDDE7B0594C50 /* Pods-pockedex-resources.sh */,
+				C65DEB2218FA2070477990F38D2ED465 /* Pods-pockedex.debug.xcconfig */,
+				007C903E20E077A5D0E3FDD809018047 /* Pods-pockedex.release.xcconfig */,
+			);
+			name = "Pods-pockedex";
+			path = "Target Support Files/Pods-pockedex";
+			sourceTree = "<group>";
+		};
+		DB5718F30E4347AEA649476A6153B54B /* JXHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				2CBDA82EFAB58D30A8ED8356E870E405 /* JXBackgroundTaskManager.h */,
+				60A9BDB29BC3CE1F8ED501B4FDC15FE8 /* JXHTTP.h */,
+				543DCB57A68944CED447921946AFBE73 /* JXHTTPDataBody.h */,
+				C98AC2BEF79B08077BB398D2BE3F2108 /* JXHTTPDataBody.m */,
+				49AE83D8D7CE6C0D62022F5437EBEB75 /* JXHTTPFileBody.h */,
+				423749FE738671822B3757B1FD411F5F /* JXHTTPFileBody.m */,
+				3E4D7CE831A7A83BC055C2DA57D9A525 /* JXHTTPFormEncodedBody.h */,
+				D812CE6C57FF4073CA2C37965CB027C7 /* JXHTTPFormEncodedBody.m */,
+				DCDDD291AD35DFFBEE68892275609759 /* JXHTTPJSONBody.h */,
+				3EC58E1ABD8D4767361B1DDF2A406277 /* JXHTTPJSONBody.m */,
+				E01C508A1957E98ED4BB14A6F7C98B13 /* JXHTTPMultipartBody.h */,
+				F59484B94258A3D2C399FDD42648D661 /* JXHTTPMultipartBody.m */,
+				1C498B22740317824C7C202DDFAA128B /* JXHTTPOperation.h */,
+				C81B5576B6D49C8F7DEF308AEA1BA76B /* JXHTTPOperation.m */,
+				E090E0933CDEE68F9D38CF8988FA5F8E /* JXHTTPOperation+Convenience.h */,
+				24A387CFE60DF26838607BA2767B58B6 /* JXHTTPOperation+Convenience.m */,
+				E68B5545A0B8340F50C4A5270BF7E82B /* JXHTTPOperationDelegate.h */,
+				CDD9C426D44688A08CD862FDC6F6C6A6 /* JXHTTPOperationQueue.h */,
+				6389427526CBFB29454DA7D3624A5989 /* JXHTTPOperationQueue.m */,
+				F35E7C5A98226A77DD3CB6C883C33403 /* JXHTTPOperationQueueDelegate.h */,
+				E4C6E3928E953DA3687B0D2CBA760E9B /* JXHTTPRequestBody.h */,
+				1906C345504AF3820C7F92C4497B30E4 /* JXNetworkActivityIndicatorManager.h */,
+				2D71289D4585B7E77571BF6E22C13507 /* JXOperation.h */,
+				F7DD1B64B1AE0A64CEF508CA844C47F2 /* JXOperation.m */,
+				FFF7ED951F45FC95AC9534AEC5468CE4 /* JXURLConnectionOperation.h */,
+				0E55480B40AEE474923FB258C2E36661 /* JXURLConnectionOperation.m */,
+				AF4C9057213A304A102E0BC891B7CC7F /* JXURLEncoding.h */,
+				78E9FE1B11C46A5CAC75BEA8D701321B /* JXURLEncoding.m */,
+				8FB9A117024F39AB3F4F545C3CAD1CD6 /* Support Files */,
+			);
+			path = JXHTTP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B85A4E09C2791AD132CF53ED84636E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73958E45B653CC336E7AC0A064237B37 /* JXBackgroundTaskManager.h in Headers */,
+				19CD65D2C191FAC5C6A00BB9AE941EDB /* JXHTTP.h in Headers */,
+				7712C6A5E3E14813E241F913F04BD3FC /* JXHTTPDataBody.h in Headers */,
+				AF504D8A0F905CC4DC8DC5000690FD85 /* JXHTTPFileBody.h in Headers */,
+				392AD7668AFF02503497AB625C81FD31 /* JXHTTPFormEncodedBody.h in Headers */,
+				2747F3C5F2D40FA2A0C03AFDD66DE665 /* JXHTTPJSONBody.h in Headers */,
+				F0C5F9D5720117984936655ABDF2A42C /* JXHTTPMultipartBody.h in Headers */,
+				566F290B185C42AE9D033BECD6CC2582 /* JXHTTPOperation+Convenience.h in Headers */,
+				63428C80B56B7AB4E5FD62AD812C2F8E /* JXHTTPOperation.h in Headers */,
+				8BAA841E13438FD0A6BB7A277CDCD036 /* JXHTTPOperationDelegate.h in Headers */,
+				39353D244F66C654150D7A018AC7B6F5 /* JXHTTPOperationQueue.h in Headers */,
+				0BD192052EABAC281CD5C0600ED8CB77 /* JXHTTPOperationQueueDelegate.h in Headers */,
+				EF1E6AC4E6A544E4AC437179D27B7453 /* JXHTTPRequestBody.h in Headers */,
+				24EDE9B062725E5487CE9234E6F931C2 /* JXNetworkActivityIndicatorManager.h in Headers */,
+				15B8E11E650E4439BF3BE2D48EE3F718 /* JXOperation.h in Headers */,
+				ADC5E5CDDD234239FF2EAEB57D5A1371 /* JXURLConnectionOperation.h in Headers */,
+				1ABA76EE6A4D8C47442455983E2E767E /* JXURLEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEA72BE015541ED3D178BEF9BB5788F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AC21BC7BD345D84F489F7A52D39E44 /* JSONAPI.h in Headers */,
+				D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */,
+				4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */,
+				F7B5D2658B77049DDEC0AAA88E6FCEA7 /* JSONModel+networking.h in Headers */,
+				B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */,
+				52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */,
+				740B64AC8CA44CDC54A3A2CCB396A0EB /* JSONModelClassProperty.h in Headers */,
+				F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */,
+				C591CE6B9FA1950409E543A70B3ECABE /* JSONModelLib.h in Headers */,
+				04E0EFD308A39DA6783F9004C5689973 /* JSONValueTransformer.h in Headers */,
+				8F11ABA0C553B18981097015226E5748 /* NSArray+JSONModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09FA060F1A0492FB25232F489AC4E573 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AF5E073E12BB724B34252D7E1E5E2E /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				DCC9A773031824E51419098CE072BB9E /* Sources */,
+				EB932C7244160CC464D5F7E2A9713D3F /* Frameworks */,
+				6EEA72BE015541ED3D178BEF9BB5788F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = C1DABF1F827CDA43190613B5AED20AA6 /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6709CDC1F976C5BFE4B078B7BC60B656 /* Build configuration list for PBXNativeTarget "JXHTTP" */;
+			buildPhases = (
+				893ADEA93C3804D7F12C0C444267A396 /* Sources */,
+				F37731CE2A0619C69CFBCE1885AD9532 /* Frameworks */,
+				4B85A4E09C2791AD132CF53ED84636E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXHTTP;
+			productName = JXHTTP;
+			productReference = C26D410645D9F00CA2E10003EBF803BB /* libJXHTTP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCA27F77507059F115C31E489B789D68 /* Pods-pockedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280FAB08550D86CD8D2908D1EDB3951C /* Build configuration list for PBXNativeTarget "Pods-pockedex" */;
+			buildPhases = (
+				55659E8443C43BA4ECC9A53CB00F91D8 /* Sources */,
+				F24A8D054DA89F209E9C51CD74D72BC4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79C85D5F2291E9005E63176DCB7EE8D /* PBXTargetDependency */,
+				A191E8AF2C0482AE42CEB296737009FE /* PBXTargetDependency */,
+			);
+			name = "Pods-pockedex";
+			productName = "Pods-pockedex";
+			productReference = C6B9A905038BFE56BBBFE318859AEFE1 /* libPods-pockedex.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5C4943E4AEB84E5854E23B6FDC50DC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FA060F1A0492FB25232F489AC4E573 /* JSONModel */,
+				B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */,
+				CCA27F77507059F115C31E489B789D68 /* Pods-pockedex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55659E8443C43BA4ECC9A53CB00F91D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D56C8C1BB6177C16DFEBCD4FE0EFAAC /* Pods-pockedex-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893ADEA93C3804D7F12C0C444267A396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D38F56288B454638B98D7FC712864F2 /* JXHTTP-dummy.m in Sources */,
+				48DACCF50A5732DBF8912C3F492AEA2E /* JXHTTPDataBody.m in Sources */,
+				B04FAF363C4F18CA318C4F5DDD606DA4 /* JXHTTPFileBody.m in Sources */,
+				4F8B282C7B454EDD6E31DDD12B05FC51 /* JXHTTPFormEncodedBody.m in Sources */,
+				E04739BAC8F58D877DFE1946932B53D7 /* JXHTTPJSONBody.m in Sources */,
+				2ADFEFD86E68998CB00A4A2690EFBA37 /* JXHTTPMultipartBody.m in Sources */,
+				71A95B60C81AEE4C3A565322E05BEC8E /* JXHTTPOperation+Convenience.m in Sources */,
+				D928CDFB2D7D3E2AD9DE3D2974391870 /* JXHTTPOperation.m in Sources */,
+				98D2D0B3B912627C074A061436AA0F2A /* JXHTTPOperationQueue.m in Sources */,
+				1E75ECA691A7A28962E96F8569038653 /* JXOperation.m in Sources */,
+				117F41761DAD72C7D56D883B7E22C947 /* JXURLConnectionOperation.m in Sources */,
+				61F3DD62261DB600855C5B84634AA60B /* JXURLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC9A773031824E51419098CE072BB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393E2E501D0B38AE7DD535362026926D /* JSONAPI.m in Sources */,
+				59DFAF46993F71E88A7336D2A8A3731D /* JSONHTTPClient.m in Sources */,
+				8CD001B0217CFDD1F5D8A3A6C3A8A5DC /* JSONKeyMapper.m in Sources */,
+				891A5DA07C60C95DAD969B542CCDE442 /* JSONModel+networking.m in Sources */,
+				EE27B8D800BD5CBC5A23FACF87210920 /* JSONModel-dummy.m in Sources */,
+				19A2AEA6F18B93212006AFB2A7A25AF8 /* JSONModel.m in Sources */,
+				880C99DF50E8C41EBE032934BE7F9905 /* JSONModelArray.m in Sources */,
+				2F8D135BE069298B3FE7C13988B2CF08 /* JSONModelClassProperty.m in Sources */,
+				A049B322C75DF1C944935D7D0D7F1E7E /* JSONModelError.m in Sources */,
+				7EC57A971BC81BEFCD4D52ACF58BB517 /* JSONValueTransformer.m in Sources */,
+				8572EA2DB7894989FDA4C085E70D96C8 /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A191E8AF2C0482AE42CEB296737009FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXHTTP;
+			target = B0144952FC8B7B32E77E313BE1F32BA9 /* JXHTTP */;
+			targetProxy = A8C95F3B658EF0959DE17FA6E130A6D1 /* PBXContainerItemProxy */;
+		};
+		A79C85D5F2291E9005E63176DCB7EE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 09FA060F1A0492FB25232F489AC4E573 /* JSONModel */;
+			targetProxy = AD1FD15E1DE43BC3D67EE15CDF313AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E672140681B7DC7C2D39794BE6E3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A04903C993199169E4E63CA3C4DF23 /* JXHTTP.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3696E439ADCC6170C35F65F0CFCB5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F1AFAAFDD789C6FC44AA9FD60BDAA6 /* JSONModel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		424C33A39CCD0533208590BC5F8AF427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007C903E20E077A5D0E3FDD809018047 /* Pods-pockedex.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D39701655ACB7188546B17676ABB67D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A04903C993199169E4E63CA3C4DF23 /* JXHTTP.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JXHTTP/JXHTTP-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A287A9FFB0C9B547E5F2B91B5BF03045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65DEB2218FA2070477990F38D2ED465 /* Pods-pockedex.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4CCEB3003541A51A51EC8EF344D0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F1AFAAFDD789C6FC44AA9FD60BDAA6 /* JSONModel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280FAB08550D86CD8D2908D1EDB3951C /* Build configuration list for PBXNativeTarget "Pods-pockedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A287A9FFB0C9B547E5F2B91B5BF03045 /* Debug */,
+				424C33A39CCD0533208590BC5F8AF427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6709CDC1F976C5BFE4B078B7BC60B656 /* Build configuration list for PBXNativeTarget "JXHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D39701655ACB7188546B17676ABB67D /* Debug */,
+				06E672140681B7DC7C2D39794BE6E3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AF5E073E12BB724B34252D7E1E5E2E /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3696E439ADCC6170C35F65F0CFCB5A5D /* Debug */,
+				CC4CCEB3003541A51A51EC8EF344D0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
